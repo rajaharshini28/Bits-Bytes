@@ -1,0 +1,98 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; 
+    margin: 0;
+    padding: 20px;
+    color: #333; 
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 30px; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
+}
+
+/* Header Styles */
+h1 {
+    text-align: center;
+    color: #4a90e2; 
+    margin-bottom: 20px;
+    font-size: 2.5em; 
+}
+
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #555; 
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box; 
+    transition: border-color 0.3s; 
+}
+
+input[type="text"]:focus {
+    border-color: #4a90e2; 
+    outline: none; 
+}
+
+button {
+    background-color: #4a90e2; 
+    color: white; /* Text color */
+    padding: 12px 15px; /* Increased padding for better touch targets */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #357ab8; /* Darker shade on hover */
+    transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+/* Recipe Output Styles */
+#recipe-output {
+    margin-top: 20px;
+    padding: 15px; /* Increased padding for better spacing */
+    background: #e2f0d9; /* Light green background for output */
+    border-radius: 5px;
+    border: 1px solid #c1e1c5; /* Light border */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+#recipe-output h2 {
+    color: #333; /* Dark color for recipe title */
+    margin-top: 0; /* Remove top margin */
+}
+
+strong {
+    color: #4a90e2; /* Blue color for strong text */
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px; /* Reduce padding on smaller screens */
+    }
+
+    button {
+        width: 100%; /* Full-width button on small screens */
+    }
+}
